@@ -1,0 +1,10 @@
+import time 
+
+print("Enviar Trojan Para Celular")
+time.sleep(1)
+kon = input("Número para enviar trojan:")
+bangsa = int(input("Total de trojan para enviar:"))
+
+for niko in range(bangsa):
+	print("Virus enviado para =",kon)
+	time.sleep(0.05)
